@@ -13,9 +13,8 @@ services:
         databases:
           default:
             connector: postgres
-            host: ec2-54-247-92-167.eu-west-1.compute.amazonaws.com
+            host: ec2-54-246-100-246.eu-west-1.compute.amazonaws.com
             database: ${PG_DATABASE}
-            schema: public
             user: ${PG_USERNAME}
             password: ${PG_PASSWORD}
             ssl: true
